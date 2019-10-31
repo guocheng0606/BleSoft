@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/ic_bluetooth_searching"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="没有发现蓝牙设备"
+            android:textColor="#ABABAB"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="下拉搜索"
+            android:textColor="#ABABAB"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_connect"
+        android:title="连接"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_clear"
+        android:title="清除"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_batch"
+        android:title="批量发送"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_custom"
+        android:title="自定义"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_current"
+        android:title="当前工作模式"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_gsm"
+        android:title="GSM直通模式"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_bds"
+        android:title="BDS直通模式"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_ble"
+        android:title="蓝牙直通模式"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_exit"
+        android:title="退出直通模式"
+        app:showAsAction="never"/>
+
+</menu>

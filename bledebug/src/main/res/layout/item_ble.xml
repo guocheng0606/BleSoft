@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:text="BLE"/>
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/textcolor"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="9A:9A:9A:9A:9A"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="13sp"
+        android:textColor="@color/gray_text"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:text="@string/connect"
+        android:background="@drawable/shape_defult_button_bg"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
